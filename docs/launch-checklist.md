@@ -29,15 +29,21 @@ Checked 13 November 2026 against the Pre-Launch Checklists (01 Launch essentials
 - [x] Vercel Web Analytics script added (cookieless)
 - [x] Company profile: `/company-profile` (web) and `/MAG-Global-Link-Company-Profile.pdf` (725 KB, 9 phone-size pages)
 
-## Needs you (in this order)
+## Launch (13 November 2026)
 
-1. **Buy `maggloballink.com`** and add it to the Vercel project. Make the bare domain primary and redirect `www` to it.
-2. **Enable Web Analytics** in the Vercel project (Analytics tab, Enable). Until then the analytics script returns 404, which is harmless.
-3. **Google Search Console**: add a Domain property for `maggloballink.com`, verify with the DNS TXT record, then submit `https://maggloballink.com/sitemap.xml`. Use URL Inspection to request indexing for the home page and the five country pages.
-4. **Bing Webmaster Tools**: sign in and import the site from Search Console.
-5. **Test a WhatsApp link preview** by sending `https://maggloballink.com` to yourself once the domain is live.
-6. **PageSpeed Insights** on mobile for the home page and one country page.
-7. **Optional redirect**: once the domain works, redirect `mag-global-link.vercel.app` to it (Vercel domain settings).
+- [x] `maggloballink.com` bought and attached to the `mag-global-link` project in Africanus's projects on Vercel (production)
+- [x] `www.maggloballink.com` 308-redirects to `maggloballink.com`; `http://` and `.html` URLs redirect too
+- [x] Google Search Console Domain property verified by DNS TXT record (two `google-site-verification` TXT records are on the domain; keep both)
+- [x] Sitemap submitted: `https://maggloballink.com/sitemap.xml`
+- [x] Indexing requested for the home page and all five country pages
+
+## Still to do
+
+1. **Enable Web Analytics** in the Vercel project (Analytics tab, Enable). Until then the analytics script returns 404, which is harmless.
+2. **Bing Webmaster Tools**: sign in and import the site from Search Console.
+3. **Test a WhatsApp link preview** by sending `https://maggloballink.com` to yourself.
+4. **PageSpeed Insights** on mobile for the home page and one country page.
+5. Check Search Console in a few days: Pages report for indexing, and the sitemap status (it shows "Couldn't fetch" for the first hours on a new property).
 
 ## Online visibility (checklist 08)
 
